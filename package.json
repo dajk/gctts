@@ -2,14 +2,14 @@
   "name": "text-to-mp3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "mp3": "node index",
-    "open": "open output.mp3",
-    "list-voices": "node list-voices"
+    "compile": "node src/index",
+    "play": "open output.mp3",
+    "list-voices": "node src/list-voices"
   },
   "keywords": [],
-  "author": "Radovan Hajdukovic <hajdukovic.radovan@gmail.com> (https://at.linkedin.com/in/radovan-hajdukovic-a2004984)",
+  "author": "Radovan Hajdukovic <hajdukovic.radovan@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/text-to-speech": "0.3.0"

@@ -12,11 +12,11 @@ $ npm install # install dependencies
 
 ```sh
 $ npm run compile # compile input.txt to output.mp3 (text to speech)
-$ npm run open # open output.mp3
+$ npm run play # open output.mp3
 $ npm run list-voices # log list of voices in terminal
 ```
 
-In order to change a voice, go to `index.js` and change these lines accordingly:
+In order to change a voice, go to `src/index.js` and change these lines accordingly:
 
 ```js
 voice: {
