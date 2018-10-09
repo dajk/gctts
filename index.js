@@ -17,7 +17,9 @@ fs.readFile('./input.txt', 'utf8', (err, data) => {
     // Select the language and SSML Voice Gender (optional)
     voice: {
       languageCode: 'en-US',
-      ssmlGender: 'NEUTRAL'
+      name: 'en-AU-Wavenet-D',
+      ssmlGender: 'NEUTRAL',
+      naturalSampleRateHertz: 24000
     },
     // Select the type of audio encoding
     audioConfig: {
