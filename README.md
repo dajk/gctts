@@ -16,6 +16,8 @@ $ npm run play # open output.mp3
 $ npm run list-voices # log list of voices in terminal
 ```
 
+### How to change
+
 In order to change a voice, go to `src/index.js` and change these lines accordingly:
 
 ```js
@@ -26,3 +28,5 @@ voice: {
   naturalSampleRateHertz: 15000
 }
 ```
+
+Find out more from here: https://github.com/googleapis/nodejs-text-to-speech
